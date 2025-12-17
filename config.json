@@ -2,5 +2,5 @@
   "firmware_version": "1.0.0",
   "firmware_url": "https://github.com/shashikant649sharma/ProjectDeviceID/raw/refs/heads/main/VTOW/OTA.ino.bin",
   "config_version": "4.1",
-  "config_url": "https://github.com/shashikant649sharma/ProjectDeviceID/raw/refs/heads/main/config0.json"
+  "config_url": "https://raw.githubusercontent.com/shashikant649sharma/ProjectDeviceID/refs/heads/main/config0.json"
 }
