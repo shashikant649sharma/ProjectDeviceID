@@ -1,6 +1,6 @@
 {
-  "firmware_version": "1.0.1",
-  "firmware_url": "https://your-site.com/firmware_v1.0.1.bin",
+  "firmware_version": "1.0.0",
+  "firmware_url": "https://github.com/shashikant649sharma/ProjectDeviceID/raw/refs/heads/main/VTOW/OTA.ino.bin",
   "config_version": "4.1",
-  "config_url": "https://your-site.com/MFM10v4.json"
+  "config_url": "https://github.com/shashikant649sharma/ProjectDeviceID/raw/refs/heads/main/config0.json"
 }
