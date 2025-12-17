@@ -1,0 +1,87 @@
+{
+  "modbus_settings": {
+    "baud_rate": 9600,
+    "parity": "none",
+    "stop_bits": 1,
+    "timeout_ms": 1000,
+    "inter_device_delay_ms": 1000
+  },
+  "mqtt_topic": "testdata",
+  "devices": [
+    {
+      "id": "device_1",
+      "slave_id": 1,
+      "read_config": [
+        {
+          "start_address": 0,
+          "quantity": 10,
+          "register_type": "holding",
+          "data_type": "float32",
+          "endianness": "cdab"
+        }
+      ],
+      "publish_map": [
+        { "key": "var 1", "address": 0, "multiplier": 1.0 },
+        { "key": "var 2", "address": 2, "multiplier": 1.0 },
+        { "key": "var 3", "address": 4, "multiplier": 1.0 },
+        { "key": "var 4", "address": 6, "multiplier": 1.0 },
+        { "key": "var 5", "address": 8, "multiplier": 1.0 },
+        { "key": "var 6", "address": 10, "multiplier": 1.0 },
+        { "key": "var 7", "address": 12, "multiplier": 1.0 },
+        { "key": "var 8", "address": 14, "multiplier": 1.0 },
+        { "key": "var 9", "address": 16, "multiplier": 1.0 },
+        { "key": "var 10", "address": 18, "multiplier": 1.0 }
+      ]
+    },
+    {
+      "id": "device_2",
+      "slave_id": 2,
+      "read_config": [
+        {
+          "start_address": 0,
+          "quantity": 10,
+          "register_type": "holding",
+          "data_type": "float32",
+          "endianness": "cdab"
+        }
+      ],
+      "publish_map": [
+        { "key": "var 1", "address": 0, "multiplier": 1.0 },
+        { "key": "var 2", "address": 2, "multiplier": 1.0 },
+        { "key": "var 3", "address": 4, "multiplier": 1.0 },
+        { "key": "var 4", "address": 6, "multiplier": 1.0 },
+        { "key": "var 5", "address": 8, "multiplier": 1.0 },
+        { "key": "var 6", "address": 10, "multiplier": 1.0 },
+        { "key": "var 7", "address": 12, "multiplier": 1.0 },
+        { "key": "var 8", "address": 14, "multiplier": 1.0 },
+        { "key": "var 9", "address": 16, "multiplier": 1.0 },
+        { "key": "var 10", "address": 18, "multiplier": 1.0 }
+      ]
+    },
+    {
+      "id": "device_3",
+      "slave_id": 3,
+      "read_config": [
+        {
+          "start_address": 0,
+          "quantity": 10,
+          "register_type": "holding",
+          "data_type": "float32",
+          "endianness": "cdab"
+        }
+      ],
+      "publish_map": [
+        { "key": "var 1", "address": 0, "multiplier": 1.0 },
+        { "key": "var 2", "address": 2, "multiplier": 1.0 },
+        { "key": "var 3", "address": 4, "multiplier": 1.0 },
+        { "key": "var 4", "address": 6, "multiplier": 1.0 },
+        { "key": "var 5", "address": 8, "multiplier": 1.0 },
+        { "key": "var 6", "address": 10, "multiplier": 1.0 },
+        { "key": "var 7", "address": 12, "multiplier": 1.0 },
+        { "key": "var 8", "address": 14, "multiplier": 1.0 },
+        { "key": "var 9", "address": 16, "multiplier": 1.0 },
+        { "key": "var 10", "address": 18, "multiplier": 1.0 }
+      ]
+    }
+  ]
+}
