@@ -1,0 +1,6 @@
+{
+  "firmware_version": "1.0.1",
+  "firmware_url": "https://your-site.com/firmware_v1.0.1.bin",
+  "config_version": "4.1",
+  "config_url": "https://your-site.com/MFM10v4.json"
+}
